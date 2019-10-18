@@ -19,6 +19,8 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700,900" rel="stylesheet">
+
+	
 	<!--
 			CSS
 			============================================= -->
@@ -43,23 +45,18 @@
 				</div>
 				<nav id="nav-menu-container" class="ml-auto">
 					<ul class="nav-menu white">
-						<li><a href="index.html">Home</a></li>
+						<li class=""><a href="index.html">Home</a></li>
 						<li><a href="about.html">About</a></li>
-						<li><a href="portfolio.html">Portfolio</a></li>
-						<li class="menu-has-children"><a href="#">Pages</a>
+						<li><a href="projects.html">Projects</a></li>
+						<li><a href="research.html">Research</a></li>
+						
+						<li class="menu-has-children"><a class="active" href="#">Blog</a>
 							<ul class="dark">
-								<li><a href="elements.html">Elements</a></li>
-								<li><a href="contact.html">Contact</a></li>
-								<li><a href="services.html">Service</a></li>
-								<li><a href="portfolio-details.html">Portfolio Details</a></li>
+								<li><a href="blog-home.html">Blog List</a></li>
+								<li><a href="https://medium.com/@melchhepta">Medium</a></li>
 							</ul>
 						</li>
-						<li class="menu-has-children"><a class="active" href="">Blog</a>
-							<ul class="dark">
-								<li><a class="active" href="blog-home.html">Blog Home</a></li>
-								<li><a href="blog-single.html">Blog Single</a></li>
-							</ul>
-						</li>
+						
 					</ul>
 				</nav>
 			</div>
@@ -68,8 +65,8 @@
 	<!-- End Header Area -->
 
 	<!-- start banner Area -->
-	<section class="banner-area relative">
-		<div class="container">
+	<section class="banner-area relative" style="background-image: url('img/work/fly1.jpg'); background-attachment: fixed; background-size: contain ; background-repeat: repeat; ">
+		<div class="container" >
 			<div class="row d-flex align-items-center justify-content-center">
 				<div class="about-content col-lg-12">
 					<h1 class="text-white">
@@ -86,65 +83,7 @@
 	</section>
 	<!-- End banner Area -->
 
-	<!-- Start top-category-widget Area -->
-	<section class="top-category-widget-area pt-90 pb-90 ">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-4">
-					<div class="single-cat-widget">
-						<div class="content relative">
-							<div class="overlay overlay-bg"></div>
-							<a href="#" target="_blank">
-								<div class="thumb">
-									<img class="content-image img-fluid d-block mx-auto" src="img/blog/cat-widget1.jpg" alt="">
-								</div>
-								<div class="content-details">
-									<h4 class="content-title mx-auto text-uppercase">Social life</h4>
-									<span></span>
-									<p>Enjoy your social life together</p>
-								</div>
-							</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4">
-					<div class="single-cat-widget">
-						<div class="content relative">
-							<div class="overlay overlay-bg"></div>
-							<a href="#" target="_blank">
-								<div class="thumb">
-									<img class="content-image img-fluid d-block mx-auto" src="img/blog/cat-widget2.jpg" alt="">
-								</div>
-								<div class="content-details">
-									<h4 class="content-title mx-auto text-uppercase">Politics</h4>
-									<span></span>
-									<p>Be a part of politics</p>
-								</div>
-							</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4">
-					<div class="single-cat-widget">
-						<div class="content relative">
-							<div class="overlay overlay-bg"></div>
-							<a href="#" target="_blank">
-								<div class="thumb">
-									<img class="content-image img-fluid d-block mx-auto" src="img/blog/cat-widget3.jpg" alt="">
-								</div>
-								<div class="content-details">
-									<h4 class="content-title mx-auto text-uppercase">Food</h4>
-									<span></span>
-									<p>Let the food be finished</p>
-								</div>
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- End top-category-widget Area -->
+	
 
 	<!-- Start post-content Area -->
 	<section class="post-content-area">
@@ -154,28 +93,24 @@
 					<div class="single-post row">
 						<div class="col-lg-3  col-md-3 meta-details">
 							<ul class="tags">
-								<li><a href="#">Food,</a></li>
-								<li><a href="#">Technology,</a></li>
-								<li><a href="#">Politics,</a></li>
-								<li><a href="#">Lifestyle</a></li>
+								
 							</ul>
 							<div class="user-details row">
-								<p class="user-name col-lg-12 col-md-12 col-6"><a href="#">Mark wiens</a> <span class="lnr lnr-user"></span></p>
-								<p class="date col-lg-12 col-md-12 col-6"><a href="#">12 Dec, 2017</a> <span class="lnr lnr-calendar-full"></span></p>
-								<p class="view col-lg-12 col-md-12 col-6"><a href="#">1.2M Views</a> <span class="lnr lnr-eye"></span></p>
-								<p class="comments col-lg-12 col-md-12 col-6"><a href="#">06 Comments</a> <span class="lnr lnr-bubble"></span></p>
+								<p class="user-name col-lg-12 col-md-12 col-6"><a href="#">Writeup</a> <span class="lnr lnr-book"></span></p>
+								<p class="date col-lg-12 col-md-12 col-6"><a href="#">12 July, 2019</a> <span class="lnr lnr-calendar-full"></span></p>
+								<p class="view col-lg-12 col-md-12 col-6"><a href="#">NLP</a> <span class="lnr lnr-eye"></span></p>
+								<p class="comments col-lg-12 col-md-12 col-6"><a href="#">Deep Learning/Machine Learning</a> </p>
 							</div>
 						</div>
 						<div class="col-lg-9 col-md-9 ">
 							<div class="feature-img">
-								<img class="img-fluid" src="img/blog/feature-img1.jpg" alt="">
+								<img class="img-fluid" src="img/work/1_GOj36I9RGBDKxzeU3wIHWw.png" alt="">
 							</div>
-							<a class="posts-title" href="blog-single.html"><h3>Astronomy Binoculars A Great Alternative</h3></a>
+							<a class="posts-title" href="blog-single.html"><h3>Word Embeddings: Beginner's In-depth Introduction</h3></a>
 							<p class="excert">
-								MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money
-								on boot camp when you can get the MCSE study materials yourself at a fraction.
+								What are word embeddings exactly?, Why Learn them? Loosely speaking, they are vector representations of a particular word. Having said this, what follows is how do we generate them? And More importantly, how is it done?
 							</p>
-							<a href="#" class="primary-btn" data-text="View More">
+							<a href="word-embedding.html" class="primary-btn" data-text="View More">
 								<span>V</span>
 								<span>i</span>
 								<span>e</span>
@@ -188,293 +123,47 @@
 							</a>
 						</div>
 					</div>
-					<div class="single-post row">
-						<div class="col-lg-3  col-md-3 meta-details">
-							<ul class="tags">
-								<li><a href="#">Food,</a></li>
-								<li><a href="#">Technology,</a></li>
-								<li><a href="#">Politics,</a></li>
-								<li><a href="#">Lifestyle</a></li>
-							</ul>
-							<div class="user-details row">
-								<p class="user-name col-lg-12 col-md-12 col-6"><a href="#">Mark wiens</a> <span class="lnr lnr-user"></span></p>
-								<p class="date col-lg-12 col-md-12 col-6"><a href="#">12 Dec, 2017</a> <span class="lnr lnr-calendar-full"></span></p>
-								<p class="view col-lg-12 col-md-12 col-6"><a href="#">1.2M Views</a> <span class="lnr lnr-eye"></span></p>
-								<p class="comments col-lg-12 col-md-12 col-6"><a href="#">06 Comments</a> <span class="lnr lnr-bubble"></span></p>
-							</div>
-						</div>
-						<div class="col-lg-9 col-md-9 ">
-							<div class="feature-img">
-								<img class="img-fluid" src="img/blog/feature-img2.jpg" alt="">
-							</div>
-							<a class="posts-title" href="blog-single.html"><h3>The Basics Of Buying A Telescope</h3></a>
-							<p class="excert">
-								MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money
-								on boot camp when you can get the MCSE study materials yourself at a fraction.
-							</p>
-							<a href="#" class="primary-btn" data-text="View More">
-								<span>V</span>
-								<span>i</span>
-								<span>e</span>
-								<span>w</span>
-								<span> </span>
-								<span>M</span>
-								<span>o</span>
-								<span>r</span>
-								<span>e</span>
-							</a>
-						</div>
-					</div>
-					<div class="single-post row">
-						<div class="col-lg-3  col-md-3 meta-details">
-							<ul class="tags">
-								<li><a href="#">Food,</a></li>
-								<li><a href="#">Technology,</a></li>
-								<li><a href="#">Politics,</a></li>
-								<li><a href="#">Lifestyle</a></li>
-							</ul>
-							<div class="user-details row">
-								<p class="user-name col-lg-12 col-md-12 col-6"><a href="#">Mark wiens</a> <span class="lnr lnr-user"></span></p>
-								<p class="date col-lg-12 col-md-12 col-6"><a href="#">12 Dec, 2017</a> <span class="lnr lnr-calendar-full"></span></p>
-								<p class="view col-lg-12 col-md-12 col-6"><a href="#">1.2M Views</a> <span class="lnr lnr-eye"></span></p>
-								<p class="comments col-lg-12 col-md-12 col-6"><a href="#">06 Comments</a> <span class="lnr lnr-bubble"></span></p>
-							</div>
-						</div>
-						<div class="col-lg-9 col-md-9">
-							<div class="feature-img">
-								<img class="img-fluid" src="img/blog/feature-img3.jpg" alt="">
-							</div>
-							<a class="posts-title" href="blog-single.html"><h3>The Glossary Of Telescopes</h3></a>
-							<p class="excert">
-								MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money
-								on boot camp when you can get the MCSE study materials yourself at a fraction.
-							</p>
-							<a href="#" class="primary-btn" data-text="View More">
-								<span>V</span>
-								<span>i</span>
-								<span>e</span>
-								<span>w</span>
-								<span> </span>
-								<span>M</span>
-								<span>o</span>
-								<span>r</span>
-								<span>e</span>
-							</a>
-						</div>
-					</div>
-					<div class="single-post row">
-						<div class="col-lg-3  col-md-3 meta-details">
-							<ul class="tags">
-								<li><a href="#">Food,</a></li>
-								<li><a href="#">Technology,</a></li>
-								<li><a href="#">Politics,</a></li>
-								<li><a href="#">Lifestyle</a></li>
-							</ul>
-							<div class="user-details row">
-								<p class="user-name col-lg-12 col-md-12 col-6"><a href="#">Mark wiens</a> <span class="lnr lnr-user"></span></p>
-								<p class="date col-lg-12 col-md-12 col-6"><a href="#">12 Dec, 2017</a> <span class="lnr lnr-calendar-full"></span></p>
-								<p class="view col-lg-12 col-md-12 col-6"><a href="#">1.2M Views</a> <span class="lnr lnr-eye"></span></p>
-								<p class="comments col-lg-12 col-md-12 col-6"><a href="#">06 Comments</a> <span class="lnr lnr-bubble"></span></p>
-							</div>
-						</div>
-						<div class="col-lg-9 col-md-9">
-							<div class="feature-img">
-								<img class="img-fluid" src="img/blog/feature-img4.jpg" alt="">
-							</div>
-							<a class="posts-title" href="blog-single.html"><h3>The Night Sky</h3></a>
-							<p class="excert">
-								MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money
-								on boot camp when you can get the MCSE study materials yourself at a fraction.
-							</p>
-							<a href="#" class="primary-btn" data-text="View More">
-								<span>V</span>
-								<span>i</span>
-								<span>e</span>
-								<span>w</span>
-								<span> </span>
-								<span>M</span>
-								<span>o</span>
-								<span>r</span>
-								<span>e</span>
-							</a>
-						</div>
-					</div>
-					<div class="single-post row">
-						<div class="col-lg-3 col-md-3 meta-details">
-							<ul class="tags">
-								<li><a href="#">Food,</a></li>
-								<li><a href="#">Technology,</a></li>
-								<li><a href="#">Politics,</a></li>
-								<li><a href="#">Lifestyle</a></li>
-							</ul>
-							<div class="user-details row">
-								<p class="user-name col-lg-12 col-md-12 col-6"><a href="#">Mark wiens</a> <span class="lnr lnr-user"></span></p>
-								<p class="date col-lg-12 col-md-12 col-6"><a href="#">12 Dec, 2017</a> <span class="lnr lnr-calendar-full"></span></p>
-								<p class="view col-lg-12 col-md-12 col-6"><a href="#">1.2M Views</a> <span class="lnr lnr-eye"></span></p>
-								<p class="comments col-lg-12 col-md-12 col-6"><a href="#">06 Comments</a> <span class="lnr lnr-bubble"></span></p>
-							</div>
-						</div>
-						<div class="col-lg-9 col-md-9">
-							<div class="feature-img">
-								<img class="img-fluid" src="img/blog/feature-img5.jpg" alt="">
-							</div>
-							<a class="posts-title" href="blog-single.html"><h3>Telescopes 101</h3></a>
-							<p class="excert">
-								MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money
-								on boot camp when you can get the MCSE study materials yourself at a fraction.
-							</p>
-							<a href="#" class="primary-btn" data-text="View More">
-								<span>V</span>
-								<span>i</span>
-								<span>e</span>
-								<span>w</span>
-								<span> </span>
-								<span>M</span>
-								<span>o</span>
-								<span>r</span>
-								<span>e</span>
-							</a>
-						</div>
-					</div>
-					<nav class="blog-pagination justify-content-center d-flex">
-						<ul class="pagination">
-							<li class="page-item">
-								<a href="#" class="page-link" aria-label="Previous">
-									<span aria-hidden="true">
-										<span class="lnr lnr-chevron-left"></span>
-									</span>
-								</a>
-							</li>
-							<li class="page-item"><a href="#" class="page-link">01</a></li>
-							<li class="page-item active"><a href="#" class="page-link">02</a></li>
-							<li class="page-item"><a href="#" class="page-link">03</a></li>
-							<li class="page-item"><a href="#" class="page-link">04</a></li>
-							<li class="page-item"><a href="#" class="page-link">09</a></li>
-							<li class="page-item">
-								<a href="#" class="page-link" aria-label="Next">
-									<span aria-hidden="true">
-										<span class="lnr lnr-chevron-right"></span>
-									</span>
-								</a>
-							</li>
-						</ul>
-					</nav>
+					
 				</div>
 				<div class="col-lg-4 sidebar-widgets">
 					<div class="widget-wrap">
-						<div class="single-sidebar-widget search-widget">
-							<form class="search-form" action="#">
-								<input placeholder="Search Posts" name="search" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Search Posts'">
-								<button type="submit"><i class="fa fa-search"></i></button>
-							</form>
-						</div>
+						
 						<div class="single-sidebar-widget user-info-widget">
-							<img src="img/blog/user-info.png" alt="">
-							<a href="#"><h4>Charlie Barber</h4></a>
+							<img width="100" heigth="auto" style="border-radius: 50%;" src="img/inno.jpeg" alt="">
+							<a href="#"><h4>Boakye I. Ababio</h4></a>
 							<p>
-								Senior blog writer
+								Ai, DL, ML || M.Eg
 							</p>
 							<ul class="social-links">
-								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fa fa-github"></i></a></li>
-								<li><a href="#"><i class="fa fa-behance"></i></a></li>
+								<li><a href="https://github.com/melch-inno"><i class="fa fa-github"></i></a></li>
+								<li><a href="https://twitter.com/IbaMelch"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="https://www.linkedin.com/in/boakye-i-ababio-4b2a5110b/"><i class="fa fa-linkedin"></i></a></li>
+								<li><a href="https://medium.com/@melchhepta"><i class="fa fa-medium"></i></a></li>
+								<li><a href="https://www.facebook.com/innocent.ab.98"><i class="fa fa-facebook"></i></a></li>
 							</ul>
 							<p>
-								Boot camps have its supporters andit sdetractors. Some people do not understand why you should have to spend money on boot
-								camp when you can get. Boot camps have itssuppor ters andits detractors.
+								Founder of Epta.Tech || TechFarmer || M.Eg in Artificial Intelligence || Research Assistant at HBUT || VR & IoT || Backend & Frontend Developer
 							</p>
 						</div>
 						<div class="single-sidebar-widget popular-post-widget">
-							<h4 class="popular-title">Popular Posts</h4>
+							<h4 class="popular-title">Current Posts</h4>
 							<div class="popular-post-list">
 								<div class="single-post-list d-flex flex-row align-items-center">
-									<div class="thumb">
-										<img class="img-fluid" src="img/blog/pp1.jpg" alt="">
-									</div>
-									<div class="details">
-										<a href="blog-single.html"><h6>Space The Final Frontier</h6></a>
-										<p>02 Hours ago</p>
-									</div>
+									<a class="twitter-timeline" data-height="1000"  data-theme="light" href="https://twitter.com/IbaMelch?ref_src=twsrc%5Etfw">Tweets by AB Innocent</a> 
+									<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 								</div>
 								<div class="single-post-list d-flex flex-row align-items-center">
-									<div class="thumb">
-										<img class="img-fluid" src="img/blog/pp2.jpg" alt="">
-									</div>
-									<div class="details">
-										<a href="blog-single.html"><h6>The Amazing Hubble</h6></a>
-										<p>02 Hours ago</p>
-									</div>
+									
+									<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+									<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="boakye-i-ababio-4b2a5110b"><a class="LI-simple-link" href='https://cn.linkedin.com/in/boakye-i-ababio-4b2a5110b?trk=profile-badge'>BOAKYE .I. ABABIO</a></div>
+
 								</div>
-								<div class="single-post-list d-flex flex-row align-items-center">
-									<div class="thumb">
-										<img class="img-fluid" src="img/blog/pp3.jpg" alt="">
-									</div>
-									<div class="details">
-										<a href="blog-single.html"><h6>Astronomy Or Astrology</h6></a>
-										<p>02 Hours ago</p>
-									</div>
-								</div>
-								<div class="single-post-list d-flex flex-row align-items-center">
-									<div class="thumb">
-										<img class="img-fluid" src="img/blog/pp4.jpg" alt="">
-									</div>
-									<div class="details">
-										<a href="blog-single.html"><h6>Asteroids telescope</h6></a>
-										<p>02 Hours ago</p>
-									</div>
-								</div>
-							</div>
+								
+								
 						</div>
 						<div class="single-sidebar-widget ads-widget">
 							<a href="#"><img class="img-fluid" src="img/blog/ads-banner.jpg" alt=""></a>
 						</div>
-						<div class="single-sidebar-widget post-category-widget">
-							<h4 class="category-title">Post Catgories</h4>
-							<ul class="cat-list">
-								<li>
-									<a href="#" class="d-flex justify-content-between">
-										<p>Technology</p>
-										<p>37</p>
-									</a>
-								</li>
-								<li>
-									<a href="#" class="d-flex justify-content-between">
-										<p>Lifestyle</p>
-										<p>24</p>
-									</a>
-								</li>
-								<li>
-									<a href="#" class="d-flex justify-content-between">
-										<p>Fashion</p>
-										<p>59</p>
-									</a>
-								</li>
-								<li>
-									<a href="#" class="d-flex justify-content-between">
-										<p>Art</p>
-										<p>29</p>
-									</a>
-								</li>
-								<li>
-									<a href="#" class="d-flex justify-content-between">
-										<p>Food</p>
-										<p>15</p>
-									</a>
-								</li>
-								<li>
-									<a href="#" class="d-flex justify-content-between">
-										<p>Architecture</p>
-										<p>09</p>
-									</a>
-								</li>
-								<li>
-									<a href="#" class="d-flex justify-content-between">
-										<p>Adventure</p>
-										<p>44</p>
-									</a>
-								</li>
-							</ul>
 						</div>
 						<div class="single-sidebar-widget newsletter-widget">
 							<h4 class="newsletter-title">Newsletter</h4>
@@ -498,23 +187,7 @@
 								You can unsubscribe at any time
 							</p>
 						</div>
-						<div class="single-sidebar-widget tag-cloud-widget">
-							<h4 class="tagcloud-title">Tag Clouds</h4>
-							<ul>
-								<li><a href="#">Technology</a></li>
-								<li><a href="#">Fashion</a></li>
-								<li><a href="#">Architecture</a></li>
-								<li><a href="#">Fashion</a></li>
-								<li><a href="#">Food</a></li>
-								<li><a href="#">Technology</a></li>
-								<li><a href="#">Lifestyle</a></li>
-								<li><a href="#">Art</a></li>
-								<li><a href="#">Adventure</a></li>
-								<li><a href="#">Food</a></li>
-								<li><a href="#">Lifestyle</a></li>
-								<li><a href="#">Adventure</a></li>
-							</ul>
-						</div>
+						
 					</div>
 				</div>
 			</div>
@@ -592,10 +265,10 @@
 							<h4>Follow Me</h4>
 						</div>
 						<div class="footer-social">
-							<a href="#"><i class="fa fa-facebook"></i></a>
+							<a href="https://www.facebook.com/innocent.ab.98"><i class="fa fa-facebook"></i></a>
 							<a href="https://twitter.com/IbaMelch?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @IbaMelch</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-							<a href="#"><i class="fa fa-dribbble"></i></a>
-							<a href="#"><i class="fa fa-behance"></i></a>
+							<a href="https://www.linkedin.com/in/boakye-i-ababio-4b2a5110b/"><i class="fa fa-linkedin"></i></a>
+							<a href="https://medium.com/@melchhepta"><i class="fa fa-medium"></i></a>
 						</div>
 					</div>
 				</div>
